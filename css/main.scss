@@ -409,11 +409,10 @@ header {
 			font-size: 16px;
 			text-align: center;
 			line-height: 1.75em;
-			margin-top: -100px;
+			margin-top: -60px;
 
 			&:last-of-type {
 				margin-bottom: 100px;
-				margin-top: 0;
 			}
 
 			a {
@@ -1030,6 +1029,11 @@ body {
 .footer_banner .container a img {
 	max-width: 45px;
 }
+
+.extra .contact h3, .extra .social-media h3 {
+	padding-bottom: 15px;
+}
+
 @media (max-width: 768px){
 	.col-sm-6 {
 		width: 100%;
