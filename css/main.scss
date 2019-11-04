@@ -22,6 +22,7 @@
 body {
 	background-color: $cream;
 	width: 100%;
+	// overflow: scroll;
 }
 
 h1 {
@@ -426,7 +427,7 @@ header {
 		}
 	}
 
-	.jumpstart, .autopets, .cotw, .twelfth-man {
+	.little_robot, .jumpstart, .call_tuner, .rt, .t2mf, .lc {
 		box-sizing: border-box;
 		overflow: hidden;
 		clear: left;
@@ -446,12 +447,25 @@ header {
 		}
 	}
 
+	.little_robot {
+
+		.image-wrapper {
+
+			.image {
+				background: url(../images/little_robot_home.png) center center no-repeat;
+				background-size: cover;
+				width: 100%;
+				height: 100vh;
+			}
+		}
+	}
+
 	.jumpstart {
 
 		.image-wrapper {
 
 			.image {
-				background: url(../images/jumpstart.png) center center no-repeat;
+				background: url(../images/jumpstart_home.png) center center no-repeat;
 				background-size: cover;
 				width: 100%;
 				height: 100vh;
@@ -459,12 +473,12 @@ header {
 		}
 	}
 
-	.autopets {
+	.call_tuner {
 
 		.image-wrapper {
 
 			.image {
-				background: url(../images/autopets.png) center center no-repeat;
+				background: url(../images/call_tuner_home.png) center center no-repeat;
 				background-size: cover;
 				width: 100%;
 				height: 100vh;
@@ -472,12 +486,12 @@ header {
 		}
 	}
 
-	.cotw {
+	.rt {
 
 		.image-wrapper {
 
 			.image {
-				background: url(../images/cotw.png) center center no-repeat;
+				background: url(../images/rt_home.png) center center no-repeat;
 				background-size: cover;
 				width: 100%;
 				height: 100vh;
@@ -485,12 +499,25 @@ header {
 		}
 	}
 
-	.twelfth-man {
+	.t2mf {
 
 		.image-wrapper {
 
 			.image {
-				background: url(../images/12mf.png) center center no-repeat;
+				background: url(../images/12mf_home.png) center center no-repeat;
+				background-size: cover;
+				width: 100%;
+				height: 100vh;
+			}
+		}
+	}
+	
+	.lc {
+
+		.image-wrapper {
+
+			.image {
+				background: url(../images/lc_home.png) center center no-repeat;
 				background-size: cover;
 				width: 100%;
 				height: 100vh;
@@ -809,5 +836,208 @@ header {
 		z-index: 200;
 		height: 45px;
 		position: relative;
+	}
+}
+
+
+// -----------------custom css---------------
+
+
+.background_ef {
+	background: #efefef;
+}
+.container {
+	max-width: 1040px;
+	margin: auto;
+	padding: 0 25px;
+	z-index: 1;
+	position: relative;
+}
+.header_banner {
+	height: 500px;
+	position: relative;
+}
+.middle_banner {
+	height: 600px;
+	width: 100%;
+}
+.position_abs {
+	position: absolute;
+}
+.h_12mf {
+	background: url(../images/12mf_head.png) no-repeat center center;
+	background-size: cover;
+}
+.m_12mf {
+	background-image: -webkit-linear-gradient(85deg, transparent 25%, #640020 0%);
+}
+.h_call {
+	background: url(../images/cotw_head.png) no-repeat center center;
+	background-size: cover;
+}
+.m_call {
+	background-image: -webkit-linear-gradient(85deg, transparent  25%, #1a3619 0%);
+}
+.h_jump {
+	background: url(../images/jumpstart_head.png) no-repeat center center;
+	background-size: cover;
+}
+.m_jump {
+	background-image: -webkit-linear-gradient(85deg, transparent  25%, #2a7cff 0%);
+}
+.h_robot {
+	background: url(../images/autopetst_head.png) no-repeat center center;
+	background-size: cover;
+}
+.m_robot {
+	background-image: -webkit-linear-gradient(85deg, transparent  25%, #ffad04 0%);
+}
+.h_rt {
+	background: url(../images/rt_head.png) no-repeat center center;
+	background-size: cover;
+}
+.m_rt {
+	background-image: -webkit-linear-gradient(85deg, transparent  25%, #d9292e 0%);
+}
+.m_rt1 {
+	background-image: -webkit-linear-gradient(95deg, transparent  25%, #d9292e 0%);
+}
+.h_lc {
+	background: url(../images/lc_head.png) no-repeat center center;
+	background-size: cover;
+}
+.m_lc {
+	background-image: -webkit-linear-gradient(85deg, transparent  25%, #999ab3 0%);
+}
+.header_title {
+	position: absolute;
+	left: 50%;
+	top: 50%;
+	transform: translate(-50%, -50%);
+}
+.header_title h1 {
+	font-family: "Fjalla One",sans-serif;
+	font-size: 40px;
+	text-transform: uppercase;
+	color: #F9F5EF;
+	margin: 0;
+}
+.header_title p {
+	font-family: "Poppins",sans-serif;
+	font-size: 18px;
+	font-weight: 400;
+	color: #F9F5EF;
+}
+
+.text_center {
+	text-align: center;
+}
+.dash_st {
+	background: #fff;
+	padding: 45px 40px;
+	box-shadow: 1px 1px 10px rgba(0,0,0,0.3);
+}
+.dash_st_2 {
+	background: #efefef;
+	padding: 20px;
+}
+.margin_bottom_75 { margin-bottom: 75px; }
+
+.margin_m_50 {
+	margin-top: -50px;
+}
+.c_title_st {
+	font-family: "Fjalla One",sans-serif;
+	font-size: 30px;
+	text-transform: uppercase;
+	color: #333;
+	margin: 0;
+}
+.c_content_st {
+	font-family: "Poppins",sans-serif;
+	font-size: 18px;
+	font-weight: 400;
+	color: #333;
+	line-height: 1.7;
+}
+body {
+	margin: 0;
+}
+.row {
+	display: -ms-flexbox;
+	display: flex;
+	-ms-flex-wrap: wrap;
+	flex-wrap: wrap;
+}
+.col-sm-6 {
+	position: relative;
+	width: 50%;
+}
+.right_pad { padding-right: 25px; }
+.left_pad { padding-left: 25px; }
+
+.img_max_w {
+	text-align: center;
+	max-width: 750px;
+	margin-right: auto;
+	margin-left: auto;
+}
+.padding_35 {
+	padding: 35px 0;
+}
+.padding_50 {
+	padding: 50px 0;
+}
+
+.lc_image_side {
+	width: 45%;
+	display: inline-flex;
+	padding: 2.5%;
+}
+.float_left {
+	float: left;
+}
+.footer_banner {
+	height: 300px;
+	width: 100%;
+}
+.f_lc {
+	background-image: -webkit-linear-gradient(-93deg, transparent 25%, #999ab3 0%);
+}
+.f_mf {
+	background-image: -webkit-linear-gradient(-93deg, transparent 25%, #640020 0%);
+}
+.f_call {
+	background-image: -webkit-linear-gradient(-93deg, transparent 25%, #1a3619 0%);
+}
+.f_jump {
+	background-image: -webkit-linear-gradient(-93deg, transparent 25%, #2a7cff 0%);
+}
+.f_robot {
+	background-image: -webkit-linear-gradient(-93deg, transparent 25%, #ffad04 0%);
+}
+.f_rt {
+	background-image: -webkit-linear-gradient(-93deg, transparent 25%, #d9292e 0%);
+}
+
+.footer_banner .container {
+	padding-top: 100px;
+}
+.footer_banner .container .c_title_st {
+	padding: 20px 0;
+	color: #fff;
+}
+.footer_banner .container a img {
+	max-width: 45px;
+}
+@media (max-width: 768px){
+	.col-sm-6 {
+		width: 100%;
+	}
+	.right_pad, .left_pad {
+		padding: 0;
+	}
+	.lc_image_side {
+		width: 95%;
 	}
 }
