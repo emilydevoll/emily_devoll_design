@@ -973,8 +973,16 @@ body {
 	position: relative;
 	width: 50%;
 }
-.right_pad { padding-right: 25px; }
-.left_pad { padding-left: 25px; }
+.right_pad { 
+	padding-right: 25px; 
+	padding-top: 25px;
+	padding-bottom: 25px;
+}
+.left_pad { 
+	padding-left: 25px; 
+	padding-top: 25px;
+	padding-bottom: 25px;
+}
 
 .img_max_w {
 	text-align: center;
@@ -1035,9 +1043,13 @@ body {
 		width: 100%;
 	}
 	.right_pad, .left_pad {
-		padding: 0;
+		padding-left: 0;
+		padding-right: 0;
 	}
 	.lc_image_side {
 		width: 95%;
+	}
+	.img_max_w img {
+		width: 100%;
 	}
 }
