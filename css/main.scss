@@ -370,6 +370,13 @@ header {
 	width: 100%;
 	box-sizing: border-box;
 	overflow: hidden;
+	
+	#main .image-wrapper:hover .image {
+		transform: scale(1.15);
+	}
+	#main .image-wrapper .image {
+		transition: all 1s;
+	}
 
 	h1 {
 		font-family: $header-font;
