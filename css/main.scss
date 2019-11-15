@@ -366,6 +366,9 @@ header {
 }
 
 .work {
+	
+	
+	
 	margin: 0 auto;
 	width: 100%;
 	box-sizing: border-box;
@@ -389,6 +392,13 @@ header {
 		color: $cream;
 		padding-top: 10px;
 		text-align: center;
+	}
+	
+	#main .image-wrapper:hover .image {
+		transform: scale(1.15);
+	}
+	#main .image-wrapper .image {
+		transition: all 1s;
 	}
 
 	a {
@@ -830,12 +840,6 @@ header {
 			z-index: 10;
 			position: relative;
 			
-			.image-wrapper:hover .image {
-				transform: scale(1.15);
-		}
-			.image-wrapper:hover .image {
-			    	transition: all 1s;
-		}
 	}
 
 
