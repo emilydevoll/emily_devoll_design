@@ -13,7 +13,13 @@
 @import 'blog';
 @import 'goodreads';
 
-
+	
+.work #main .image-wrapper:hover .image {
+	transform: scale(1.15);
+}
+.work #main .image-wrapper .image {
+	transition: all 1s;
+}
 #home {
 	// overflow: scroll;
 }
