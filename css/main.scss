@@ -1076,5 +1076,9 @@ body {
 .work #main .image-wrapper .image {
 	transition: all 1s;
 }
-
+.work #main .image-wrapper:hover .image .imagechild {
+    height: 100%;
+    width: 100%;
+    background: rgba(0,0,0,0.5);
+}
 	
